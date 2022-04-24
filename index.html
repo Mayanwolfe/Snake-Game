@@ -8,7 +8,20 @@
     <link rel="stylesheet" type="text/css" href="snake_game.css" />
   </head>
   <body>
+    <section id = 'gameContainer'></section>
+    <section id="scoreContainer">
+      <section class="scoreBoard">Food: <span id="pointsEarned">0</span></section>
+      <section class="scoreBoard">Blocks: <span id="pointsTraveled">0</span></section>
+    </section>
 
+    <section id="onScreenControllers">
+      <button id="leftButton">◀️</button>
+      <div>
+        <button id="upButton">🔼</button>
+        <button id="downButton">🔽</button>
+      </div>
+      <button id="rightButton">▶️</button>
+    </section>
   </body>
 
   <script src="snake_game.js"></script>
